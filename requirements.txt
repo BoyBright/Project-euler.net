@@ -1,7 +1,7 @@
 astroid==2.1.0
 atomicwrites==1.2.1
 attrs==18.2.0
-cython==0.29.2
+cython==0.29.6
 falcon==1.4.1
 gunicorn==19.9.0
 httpie==1.0.2
