@@ -3,6 +3,8 @@
 import test
 import timeit
 
+import euler
+
 def create_grid(n):
     grid = list()
     for i in range(n):
@@ -22,5 +24,7 @@ if __name__ == '__main__':
     # print('PYX:',timeit.timeit('test.power(2, 100)', setup="import test"))
     # print('PY :',timeit.timeit('power(2, 100)', globals=globals()))
     # print('result :',test.power(2, 100))
-    print('PYX:',timeit.timeit('test.primes(100)', setup="import test"))
-    print('prime result:',test.primes(100))
+    # print('PYX:',timeit.timeit('test.primes(100)', setup="import test"))
+    # print('prime result:',test.primes(100))
+    print('PYX:',timeit.timeit('euler.id2(4000000)', setup="import euler"))
+    print('prime result:', euler.id2(4000000))
